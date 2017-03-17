@@ -1,0 +1,23 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinaonthelam/tripplanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinaonthelam/tripplanner/issues"
+  },
+  "homepage": "https://github.com/tinaonthelam/tripplanner#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
