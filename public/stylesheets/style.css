@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  margin-top: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.lists {
+  display: inline-block;
+  width: 30%;
+}
+
+h1 {
+  color: purple;
+}

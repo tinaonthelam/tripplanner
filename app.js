@@ -16,7 +16,7 @@ app.use(bodyParser.json()); // would be for AJAX requests
 
 //to be able to use your static
 app.use(express.static(path.join(__dirname, '/public')));
-app.use('/', routes)
+app.use('/', routes);
 
 //for nunjucks rendering
 app.set('view engine', 'html');
