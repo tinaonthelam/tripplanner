@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Places to Explore</h1>
+<p> Hotels: </p>
+  <!-- <select name="hotels" >
+    <option value="" selected={{names[0].name}}>
+      {% for hotel in names[0] %}
+        <option value="{{hotel.name}}" selected={{hotel.is_selected}} </option>
+      {% endfor %}
+    </option>
+  </select> -->
+  <ul class="list-unstyled">
+    {% for hotel in names[0] %}
+      <li>{{ hotel.name }}</li>
+    {% endfor %}
+  </ul>
+
+<p> Restaurants: </p>
+  <ul class="list-unstyled">
+    {% for restaurant in names[2] %}
+      <li>{{ restaurant.name }}</li>
+    {% endfor %}
+  </ul>
+
+<p> Activities: </p>
+  <ul class="list-unstyled">
+    {% for activity in names[1] %}
+      <li>{{ activity.name }}</li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>
